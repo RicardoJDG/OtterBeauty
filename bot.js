@@ -65,16 +65,14 @@ async function tweetIt() {
         status: message,
         media_ids: [id],
       };
-      console.log(img_data.data);
       T.post("statuses/update", tweet, tweeted);
     }
 
     function tweeted(err, data, response) {
       if (err) {
-        console.log("Well shit that didnt work");
         console.error(err);
       } else {
-        console.log("Omg IT WORKED");
+        console.log("Posted");
       }
     }
   }
