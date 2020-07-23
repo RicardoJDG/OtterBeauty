@@ -1,0 +1,16 @@
+{
+  "name": "twitter_bot",
+  "version": "1.0.0",
+  "description": "Twitter bot that tweets otter images!",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "RicardoJDG",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "image-downloader": "^4.0.1",
+    "twit": "^2.2.11"
+  }
+}
