@@ -85,4 +85,5 @@ async function tweetIt() {
 
 let dayInMiliseconds = 1000 * 60 * 60 * setInterval(tweetIt, dayInMiliseconds);
 
+tweetIt();
 setInterval(tweetIt, 1000 * 300);
