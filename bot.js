@@ -83,7 +83,7 @@ async function tweetIt() {
   processing(img_data);
 }
 
-let dayInMiliseconds = 1000 * 60 * 60 * setInterval(tweetIt, dayInMiliseconds);
+let dayInMiliseconds = 1000 * 60 * 60 * 24;
 
 tweetIt();
 setInterval(tweetIt, 1000 * 300);
